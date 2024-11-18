@@ -1,0 +1,23 @@
+uuid: b76faf07-f1a8-4a33-a5bb-397a104c1078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_sticky_header
+    - node.type.site_config
+id: node.site_config.field_anita_sticky_header
+field_name: field_anita_sticky_header
+entity_type: node
+bundle: site_config
+label: 'Anita - Sticky Header'
+description: 'Option to stick the header to the top of the page'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean

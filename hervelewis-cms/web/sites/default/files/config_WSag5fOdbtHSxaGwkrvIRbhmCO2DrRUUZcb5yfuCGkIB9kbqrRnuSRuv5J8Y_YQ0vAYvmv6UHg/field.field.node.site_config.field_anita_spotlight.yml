@@ -1,0 +1,23 @@
+uuid: 1422dc7c-b8ec-4cbf-9cc5-db3fdf37fdf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_spotlight
+    - node.type.site_config
+id: node.site_config.field_anita_spotlight
+field_name: field_anita_spotlight
+entity_type: node
+bundle: site_config
+label: 'Anita - Spotlight'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean

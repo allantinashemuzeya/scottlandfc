@@ -1,0 +1,18 @@
+uuid: ee2bb85f-1819-4e21-a5d1-794bae350a7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - path_alias
+    - serialization
+id: entity.path_alias
+plugin_id: 'entity:path_alias'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth

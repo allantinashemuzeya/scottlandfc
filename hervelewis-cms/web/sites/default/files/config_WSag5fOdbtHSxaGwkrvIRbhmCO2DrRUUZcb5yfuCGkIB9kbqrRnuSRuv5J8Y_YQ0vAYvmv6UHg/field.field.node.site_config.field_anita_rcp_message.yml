@@ -1,0 +1,21 @@
+uuid: 71743baf-ba95-4b12-b1a1-afadd01a4b73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_rcp_message
+    - node.type.site_config
+id: node.site_config.field_anita_rcp_message
+field_name: field_anita_rcp_message
+entity_type: node
+bundle: site_config
+label: 'Anita - RCP Message'
+description: 'Context menu is not allowed on this website'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Context menu is not allowed on this website'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

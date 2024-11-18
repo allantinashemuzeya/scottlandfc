@@ -1,0 +1,31 @@
+uuid: f5d8aef5-3246-4ab5-b609-9d2fb27d83c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_file
+    - media.type.image
+    - media.type.video
+    - paragraphs.paragraphs_type.webgl_carousel_slide
+id: paragraph.webgl_carousel_slide.field_media_file
+field_name: field_media_file
+entity_type: paragraph
+bundle: webgl_carousel_slide
+label: 'Media File'
+description: 'The image or video of the slide'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

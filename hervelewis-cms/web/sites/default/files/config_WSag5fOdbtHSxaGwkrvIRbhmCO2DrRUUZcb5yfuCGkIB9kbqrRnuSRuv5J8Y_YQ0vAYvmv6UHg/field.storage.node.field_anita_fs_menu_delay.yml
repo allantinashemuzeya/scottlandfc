@@ -1,0 +1,20 @@
+uuid: a66d854f-ed8e-4ffc-ae70-15b433373c9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_anita_fs_menu_delay
+field_name: field_anita_fs_menu_delay
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

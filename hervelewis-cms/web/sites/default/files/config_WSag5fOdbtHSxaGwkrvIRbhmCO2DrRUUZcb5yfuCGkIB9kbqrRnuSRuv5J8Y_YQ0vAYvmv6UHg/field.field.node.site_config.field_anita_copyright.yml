@@ -1,0 +1,21 @@
+uuid: 968bef44-f9ea-4cfe-850d-b0e4393a56ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_copyright
+    - node.type.site_config
+id: node.site_config.field_anita_copyright
+field_name: field_anita_copyright
+entity_type: node
+bundle: site_config
+label: 'Anita - Copyright'
+description: 'Footer Copyright string'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Copyright &copy; 2024. All Rights Reserved.'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,35 @@
+uuid: f7205b9b-20ee-4f94-bdb3-054d1e398f4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.webgl_carousel_gallery.field_webgl_slide
+    - paragraphs.paragraphs_type.webgl_carousel_gallery
+  module:
+    - paragraphs
+id: paragraph.webgl_carousel_gallery.default
+targetEntityType: paragraph
+bundle: webgl_carousel_gallery
+mode: default
+content:
+  field_webgl_slide:
+    type: paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

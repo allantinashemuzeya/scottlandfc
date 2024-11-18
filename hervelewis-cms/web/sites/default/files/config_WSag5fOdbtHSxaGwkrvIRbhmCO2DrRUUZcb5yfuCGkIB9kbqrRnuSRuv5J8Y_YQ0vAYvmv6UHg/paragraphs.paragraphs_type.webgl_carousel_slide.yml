@@ -1,0 +1,10 @@
+uuid: 9bb505c4-8623-4360-a359-1aa699988e9f
+langcode: en
+status: true
+dependencies: {  }
+id: webgl_carousel_slide
+label: 'WebGL Carousel Slide'
+icon_uuid: null
+icon_default: null
+description: 'A slide of the WebGL Carousel Slider'
+behavior_plugins: {  }

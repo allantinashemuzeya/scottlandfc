@@ -1,0 +1,52 @@
+uuid: 3fbbfe58-d406-40f4-bca0-8e1fab0b5b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.site_config.body
+    - field.field.node.site_config.field_anita_back2top
+    - field.field.node.site_config.field_anita_back2top_label
+    - field.field.node.site_config.field_anita_copyright
+    - field.field.node.site_config.field_anita_disable_right_click
+    - field.field.node.site_config.field_anita_fs_menu_delay
+    - field.field.node.site_config.field_anita_image_drag_protectio
+    - field.field.node.site_config.field_anita_interactive_cursor
+    - field.field.node.site_config.field_anita_rcp_message
+    - field.field.node.site_config.field_anita_social_media_links
+    - field.field.node.site_config.field_anita_spotlight
+    - field.field.node.site_config.field_anita_sticky_header
+    - node.type.site_config
+  module:
+    - text
+    - user
+id: node.site_config.teaser
+targetEntityType: node
+bundle: site_config
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_anita_back2top: true
+  field_anita_back2top_label: true
+  field_anita_copyright: true
+  field_anita_disable_right_click: true
+  field_anita_fs_menu_delay: true
+  field_anita_image_drag_protectio: true
+  field_anita_interactive_cursor: true
+  field_anita_rcp_message: true
+  field_anita_social_media_links: true
+  field_anita_spotlight: true
+  field_anita_sticky_header: true

@@ -1,0 +1,22 @@
+uuid: 4f174622-3ca7-4aa4-a91a-88c8cc1a3645
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - herve_lewis_gin
+_core:
+  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
+id: herve_lewis_gin_content
+theme: herve_lewis_gin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

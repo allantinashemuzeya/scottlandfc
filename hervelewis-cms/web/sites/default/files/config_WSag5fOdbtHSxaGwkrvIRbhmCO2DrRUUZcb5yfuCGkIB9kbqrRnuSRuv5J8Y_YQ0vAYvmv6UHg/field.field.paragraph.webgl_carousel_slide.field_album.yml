@@ -1,0 +1,29 @@
+uuid: 5f44d411-d373-46f4-b89f-3d8b60f63833
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_album
+    - node.type.album
+    - paragraphs.paragraphs_type.webgl_carousel_slide
+id: paragraph.webgl_carousel_slide.field_album
+field_name: field_album
+entity_type: paragraph
+bundle: webgl_carousel_slide
+label: Album
+description: 'The Album the slide belongs to'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      album: album
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

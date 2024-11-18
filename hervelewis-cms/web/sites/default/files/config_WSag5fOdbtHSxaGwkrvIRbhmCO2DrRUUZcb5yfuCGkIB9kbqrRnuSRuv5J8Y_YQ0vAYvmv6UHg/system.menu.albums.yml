@@ -1,0 +1,8 @@
+uuid: 3db28ff6-a538-4683-ba53-e95f3cae600f
+langcode: en
+status: true
+dependencies: {  }
+id: albums
+label: Albums
+description: Albums
+locked: false

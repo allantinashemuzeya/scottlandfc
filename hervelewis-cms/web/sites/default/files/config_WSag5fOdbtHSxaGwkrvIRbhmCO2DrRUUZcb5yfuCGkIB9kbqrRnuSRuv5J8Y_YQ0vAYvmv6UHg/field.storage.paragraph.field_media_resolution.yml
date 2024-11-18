@@ -1,0 +1,21 @@
+uuid: f65e4aea-83b6-4bdb-8b0e-b254abdac431
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_media_resolution
+field_name: field_media_resolution
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

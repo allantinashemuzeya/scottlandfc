@@ -1,0 +1,21 @@
+uuid: 21523e0d-25ba-4ec6-b89c-640b059c8889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_back2top_label
+    - node.type.site_config
+id: node.site_config.field_anita_back2top_label
+field_name: field_anita_back2top_label
+entity_type: node
+bundle: site_config
+label: 'Anita - Back2Top Label'
+description: 'Back to Top Label'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Back to Top'
+default_value_callback: ''
+settings: {  }
+field_type: string

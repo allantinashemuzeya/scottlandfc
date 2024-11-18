@@ -1,0 +1,23 @@
+uuid: c324f355-190a-4b34-aa9d-a9fb15b70dc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_order
+    - paragraphs.paragraphs_type.webgl_carousel_slide
+id: paragraph.webgl_carousel_slide.field_order
+field_name: field_order
+entity_type: paragraph
+bundle: webgl_carousel_slide
+label: Order
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

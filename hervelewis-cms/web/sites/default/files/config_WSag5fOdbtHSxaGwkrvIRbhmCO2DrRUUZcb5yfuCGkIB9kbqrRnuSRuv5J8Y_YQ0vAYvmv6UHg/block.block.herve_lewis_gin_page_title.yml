@@ -1,0 +1,20 @@
+uuid: c4cf772b-3a9f-4f40-a677-1ac0f8dae7ba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - herve_lewis_gin
+_core:
+  default_config_hash: HLQY2xgby8K3vN_98hiOSasOhm9pdCsH234-s0duJ8Q
+id: herve_lewis_gin_page_title
+theme: herve_lewis_gin
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

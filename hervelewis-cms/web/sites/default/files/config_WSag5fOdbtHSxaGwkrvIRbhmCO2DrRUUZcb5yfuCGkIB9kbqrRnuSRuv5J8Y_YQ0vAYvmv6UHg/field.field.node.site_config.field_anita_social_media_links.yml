@@ -1,0 +1,37 @@
+uuid: d6329ec8-43c5-47d6-bed2-4ea86be91b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_social_media_links
+    - node.type.site_config
+    - paragraphs.paragraphs_type.social_media_links
+  module:
+    - entity_reference_revisions
+id: node.site_config.field_anita_social_media_links
+field_name: field_anita_social_media_links
+entity_type: node
+bundle: site_config
+label: 'Anita - Social Media Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_media_links: social_media_links
+    negate: 0
+    target_bundles_drag_drop:
+      social_media_links:
+        weight: 4
+        enabled: true
+      webgl_carousel_gallery:
+        weight: 5
+        enabled: false
+      webgl_carousel_slide:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,10 @@
+uuid: e46b64df-153f-458c-9365-c05f8e5dea1c
+langcode: en
+status: true
+dependencies: {  }
+id: webgl_carousel_gallery
+label: 'WebGL Carousel Gallery'
+icon_uuid: null
+icon_default: null
+description: 'The webGL Carousel Gallery'
+behavior_plugins: {  }

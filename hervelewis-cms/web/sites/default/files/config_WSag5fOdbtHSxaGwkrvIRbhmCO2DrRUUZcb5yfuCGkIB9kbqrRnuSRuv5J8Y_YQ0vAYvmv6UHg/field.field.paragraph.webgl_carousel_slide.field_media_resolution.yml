@@ -1,0 +1,19 @@
+uuid: 07517c8b-e396-4f32-bae2-51f5537dec35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_resolution
+    - paragraphs.paragraphs_type.webgl_carousel_slide
+id: paragraph.webgl_carousel_slide.field_media_resolution
+field_name: field_media_resolution
+entity_type: paragraph
+bundle: webgl_carousel_slide
+label: 'Media Resolution'
+description: "The resolution of the uploaded media file eg \"1080x1240\"\r\nTo find the resolution of the media file open its information (details) or metadata"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

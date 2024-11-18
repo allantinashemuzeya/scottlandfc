@@ -1,0 +1,18 @@
+uuid: 573fee92-6e75-41be-b468-582f1cf34f26
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_anita_back2top
+field_name: field_anita_back2top
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

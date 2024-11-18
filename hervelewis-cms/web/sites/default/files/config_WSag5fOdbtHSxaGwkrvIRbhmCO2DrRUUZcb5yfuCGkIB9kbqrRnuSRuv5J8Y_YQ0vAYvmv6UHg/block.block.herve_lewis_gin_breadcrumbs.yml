@@ -1,0 +1,22 @@
+uuid: c1b293c8-6c8e-4f69-9aa7-17e94cabb5d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - herve_lewis_gin
+_core:
+  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
+id: herve_lewis_gin_breadcrumbs
+theme: herve_lewis_gin
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

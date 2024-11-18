@@ -1,0 +1,23 @@
+uuid: 58d6e1af-a398-4990-bcc3-10ffe087fb53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_image_drag_protectio
+    - node.type.site_config
+id: node.site_config.field_anita_image_drag_protectio
+field_name: field_anita_image_drag_protectio
+entity_type: node
+bundle: site_config
+label: 'Anita - Image Drag Protection'
+description: 'Protect Images from Drag'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean

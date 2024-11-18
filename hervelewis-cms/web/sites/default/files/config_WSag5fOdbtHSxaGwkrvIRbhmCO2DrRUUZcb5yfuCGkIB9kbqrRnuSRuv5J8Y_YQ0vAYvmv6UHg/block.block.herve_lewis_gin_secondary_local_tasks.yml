@@ -1,0 +1,22 @@
+uuid: a0ab890c-36f0-4918-ae44-e19461693177
+langcode: en
+status: true
+dependencies:
+  theme:
+    - herve_lewis_gin
+_core:
+  default_config_hash: BCWhood0xXFQYqxFgL1spXdb9KeIuXH1YvTdjIEedDg
+id: herve_lewis_gin_secondary_local_tasks
+theme: herve_lewis_gin
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

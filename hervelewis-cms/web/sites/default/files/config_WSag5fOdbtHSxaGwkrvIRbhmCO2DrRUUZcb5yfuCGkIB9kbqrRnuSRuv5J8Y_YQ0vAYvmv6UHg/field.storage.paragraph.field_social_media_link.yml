@@ -1,0 +1,19 @@
+uuid: cd01d891-46c8-4f3c-8f1e-94c5e675bb93
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_social_media_link
+field_name: field_social_media_link
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 2a50e006-b12d-41cb-8d6f-00cafbb6d05a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anita_fs_menu_delay
+    - node.type.site_config
+id: node.site_config.field_anita_fs_menu_delay
+field_name: field_anita_fs_menu_delay
+entity_type: node
+bundle: site_config
+label: 'Anita - FS Menu Delay'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 100.0
+default_value_callback: ''
+settings:
+  min: 100.0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal
